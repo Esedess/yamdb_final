@@ -9,8 +9,7 @@ services:
       - .env
 
   web:
-    image: kapkadibab/api_yamdb:v0.3
-    build: ../api_yamdb
+    image: kapkadibab/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/

@@ -1,6 +1,6 @@
 # api_yamdb
 
-![Hi everyone!](https://github.com/KapkaDibab/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![workflow](https://github.com/KapkaDibab/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 <h1 align="center">Привет! </h1>
 <h3 align="center">Студент факультета Бэкенд. Когорта №9+ Яндекс.Практикум</h3>

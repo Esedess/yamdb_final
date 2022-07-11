@@ -1,7 +1,7 @@
 import os
 from datetime import timedelta
-from django.utils.crypto import get_random_string
 
+from django.utils.crypto import get_random_string
 from dotenv import load_dotenv
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -13,7 +13,11 @@ SECRET_KEY = os.getenv('SECRET_KEY', get_random_string)
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    '158.160.4.31',
+]
 
 
 # Application definition

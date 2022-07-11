@@ -1,11 +1,10 @@
 from csv import DictReader
+
 from django.conf import settings
 from django.core.management.base import BaseCommand
 from django.shortcuts import get_object_or_404
-
-from reviews.models import (
-    User, Categorу, Comment, Review, Genre, GenreTitle, Title
-)
+from reviews.models import (Categorу, Comment, Genre, GenreTitle, Review,
+                            Title, User)
 
 ALREDY_LOADED_CATEGORY_ERROR_MESSAGE = """
 Если необходимо снова загрузить данные CATEGORY из CSV файлов,

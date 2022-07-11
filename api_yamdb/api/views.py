@@ -3,21 +3,19 @@ from django.db.models import Avg
 from django.shortcuts import get_object_or_404
 from django.utils.crypto import get_random_string
 from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework import (
-    filters, mixins, pagination, permissions, serializers, status, viewsets,
-)
+from rest_framework import (filters, mixins, pagination, permissions,
+                            serializers, status, viewsets)
 from rest_framework.decorators import action, api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import RefreshToken
+from reviews.models import Categorу, Genre, Review, Title, User
 
 from .filters import TitleFilter
 from .permissions import IsAdmin, IsAdminModeratorOwnerOrReadOnly, ReadOnly
-from .serializers import (
-    CategorуSerializer, CommentSerializer, GenreSerializer, ReviewSerializer,
-    SignUpSerializer, TitleCreateUpdateSerializer, TitleSerializer,
-    TokenSerializer, UserSerializer,
-)
-from reviews.models import Categorу, Genre, Review, Title, User
+from .serializers import (CategorуSerializer, CommentSerializer,
+                          GenreSerializer, ReviewSerializer, SignUpSerializer,
+                          TitleCreateUpdateSerializer, TitleSerializer,
+                          TokenSerializer, UserSerializer)
 
 
 @api_view(['POST', ])

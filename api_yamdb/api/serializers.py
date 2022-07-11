@@ -1,5 +1,4 @@
 from rest_framework import serializers
-
 from reviews.models import Categorу, Comment, Genre, Review, Title, User
 from reviews.validators import username_validator, year_validator
 

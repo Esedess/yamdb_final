@@ -85,7 +85,7 @@
 ```
 sudo apt update
 
-sudo apt upgrade -y
+sudo apt upgrade
 
 sudo apt install docker
 ```

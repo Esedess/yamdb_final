@@ -3,8 +3,8 @@
 ![workflow](https://github.com/KapkaDibab/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 <h1 align="center">Привет! </h1>
-<h3 align="center">Студенты факультета Бэкенд. Когорта №9+ Яндекс.Практикум</h3>
-<h3 align="center">Над проектом <a href="https://github.com/Victor-Manin/api_yamdb.git" target="_blank">Review and API for YaMDb</a> работают:</h3>
+<h3 align="center">Студент факультета Бэкенд. Когорта №9+ Яндекс.Практикум</h3>
+<h3 align="center">Над проектом <a href="https://github.com/KapkaDibab/yamdb_final" target="_blank">Review and API for YaMDb</a> работают:</h3>
 
 - 🌱 [Никита Трошкин](https://github.com/KapkaDibab)
 

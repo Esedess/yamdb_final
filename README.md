@@ -15,6 +15,7 @@
 - 🔭 python-dotenv
 - 🔭 djangorestframework-simplejwt
 - 🔭 docker
+- 🔭 docker-compose
 
 <h3 align="center">Проект YaMDb. Описание:</h3>
 <p align="left">Проект YaMDb собирает отзывы пользователей на различные произведения.</p>

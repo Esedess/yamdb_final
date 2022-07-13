@@ -3,7 +3,7 @@ name: Django-app workflow
 on: [push]
 
 jobs:
-  send_message:
+  first_message:
     runs-on: ubuntu-latest
     steps:
     - name: send message

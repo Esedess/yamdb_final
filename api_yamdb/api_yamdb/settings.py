@@ -17,7 +17,6 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     '158.160.4.31',
-    'esedess.sytes.net',
 ]
 
 

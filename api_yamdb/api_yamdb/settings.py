@@ -1,15 +1,16 @@
 import os
 from datetime import timedelta
 
-from django.utils.crypto import get_random_string
-from dotenv import load_dotenv
+# from django.utils.crypto import get_random_string
+# from dotenv import load_dotenv
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-dotenv_path = os.path.join(BASE_DIR, '../infra/.env')
-load_dotenv(dotenv_path)
+# dotenv_path = os.path.join(BASE_DIR, '../infra/.env')
+# load_dotenv(dotenv_path)
 
-SECRET_KEY = os.getenv('SECRET_KEY', get_random_string)
+# SECRET_KEY = os.getenv('SECRET_KEY', get_random_string)
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = False
 

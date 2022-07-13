@@ -20,6 +20,8 @@ DEBUG = False
 # ]
 # ALLOWED_HOSTS = ['*']
 ALLOWED_HOSTS = [
+    'esedess.sytes.net',
+    '.esedess.sytes.net',
     '10.129.0.18',
     '158.160.4.31',
     '127.0.0.1',

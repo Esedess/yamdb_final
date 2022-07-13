@@ -13,12 +13,12 @@ SECRET_KEY = os.getenv('SECRET_KEY', get_random_string)
 
 DEBUG = False
 
-# ALLOWED_HOSTS = [
-#     '127.0.0.1',
-#     'localhost',
-#     '158.160.4.31',
-# ]
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    '158.160.4.31',
+    'esedess.sytes.net',
+]
 
 # Application definition
 

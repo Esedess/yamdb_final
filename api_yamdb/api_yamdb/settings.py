@@ -13,7 +13,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.getenv('SECRET_KEY', get_random_string)
 # SECRET_KEY = os.getenv('SECRET_KEY')
 
-DEBUG = False
+# DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'web',
@@ -151,7 +152,7 @@ SIMPLE_JWT = {
 PRODUCTION_EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 TEST_EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 
-EMAIL_BACKEND = TEST_EMAIL_BACKEND if DEBUG else TEST_EMAIL_BACKEND
+EMAIL_BACKEND = PRODUCTION_EMAIL_BACKEND if DEBUG else TEST_EMAIL_BACKEND
 
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'sent_emails')
 

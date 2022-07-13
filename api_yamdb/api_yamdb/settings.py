@@ -18,7 +18,14 @@ DEBUG = False
 #     'localhost',
 #     '158.160.4.31',
 # ]
-ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '158.160.4.31',
+    '127.0.0.1',
+    'localhost',
+    '[::1]',
+]
+# ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '[::1]']
 
 # Application definition
 

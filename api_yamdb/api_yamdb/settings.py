@@ -11,20 +11,15 @@ load_dotenv(dotenv_path)
 
 SECRET_KEY = os.getenv('SECRET_KEY', get_random_string)
 
-DEBUG = True
+DEBUG = False
 
-# ALLOWED_HOSTS = ['0.0.0.0']
-# ALLOWED_HOSTS = ['158.160.4.31']
-# ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '[::1]']
-# ALLOWED_HOSTS = ['*']
 ALLOWED_HOSTS = [
+    'web',
     'esedess.sytes.net',
-    '.esedess.sytes.net',
     '158.160.4.31',
     '127.0.0.1',
     'localhost',
 ]
-# ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '[::1]']
 
 # Application definition
 

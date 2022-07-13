@@ -43,3 +43,4 @@ volumes:
       type: ext4
       device: /www/static/
   media_value:
+  postgres_value:

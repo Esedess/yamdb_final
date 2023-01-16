@@ -1,12 +1,12 @@
 # api_yamdb
 
-![workflow!](https://github.com/KapkaDibab/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![workflow!](https://github.com/Esedess/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 <h1 align="center">Привет! </h1>
 <h3 align="center">Студент факультета Бэкенд. Когорта №9+ Яндекс.Практикум</h3>
-<h3 align="center">Над проектом <a href="https://github.com/KapkaDibab/yamdb_final" target="_blank">Review and API for YaMDb</a> работают:</h3>
+<h3 align="center">Над проектом <a href="https://github.com/Esedess/yamdb_final" target="_blank">Review and API for YaMDb</a> работают:</h3>
 
-- 🌱 [Никита Трошкин](https://github.com/KapkaDibab)
+- 🌱 [Никита Трошкин](https://github.com/Esedess)
 
 <h3 align="left">В настоящее время изучаем <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">Django</a>, в проекте использеуем следующие фреймфорки: </h3>
 

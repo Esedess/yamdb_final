@@ -172,6 +172,5 @@ make dumpdb
 
 ### Примеры запросов и ответов можно найти в документации API
 ### http://localhost/redoc/
-### http://esedess.sytes.net/redoc/
-### http://158.160.4.31/redoc/
+
 

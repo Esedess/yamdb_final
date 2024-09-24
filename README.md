@@ -78,7 +78,7 @@
 </details>
 
 
-
+<details> 
 <h3 align="left">Как запустить проект:</h3>
 
 ### Установить Докер:
@@ -162,6 +162,7 @@ sudo docker compose -f infra/docker-compose.yaml exec web python manage.py dumpd
 # или воспользоваться Make
 make dumpdb
 ```
+</details>
 
 ### --------------------------------------------------------------
 

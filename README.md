@@ -78,8 +78,8 @@
 </details>
 
 
-<details> 
-<h3 align="left">Как запустить проект:</h3>
+<details>
+  <summary><h3 align="left">Как запустить проект:</h3></summary>
 
 ### Установить Докер:
 ```
